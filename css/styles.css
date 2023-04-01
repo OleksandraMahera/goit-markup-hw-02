@@ -116,9 +116,7 @@ body {
     cursor: pointer;
 }
 .btn:hover,
-.btn:focus,
-.btn-portfolio:hover,
-.btn-portfolio:focus {
+.btn:focus {
     background: var(--ocean);
 }
 .btn-portfolio {
@@ -132,13 +130,18 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    background-color: #FFFFFF;
+}
 
 /* Section 3 */
 .section-three {
    background-color: var(--cloud);
 }
-
-
+.bck-list {
+    background-color: #FFFFFF;
+}
 /* Hero Footer */
 .hero-footer {
     background: var(--navy-blue);
