@@ -132,7 +132,8 @@ body {
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /* Section 3 */
